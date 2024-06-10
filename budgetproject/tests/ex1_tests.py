@@ -15,7 +15,7 @@ import pytest
 
 
 @pytest.fixture
-def fixture_1(scope = "session"):
+def fixture_1():
     # default behaviour : runs each time for secified test
     print('run-fixture-1')
     return 1
